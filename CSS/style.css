@@ -1,0 +1,78 @@
+/* Resetando margens, espaçamentos e definindo o box-sizing padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo geral do body para centralizar o conteúdo */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #e0e3ed; /* Fundo claro */
+}
+
+/* Container principal da calculadora */
+.container {
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 10px 20px 20px;
+  background: #fff; /* Fundo branco */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+/* Campo de entrada */
+.input {
+  height: 80px;
+  width: 100%;
+  outline: none;
+  border: none;
+  text-align: right;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #000;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Botões da calculadora em layout de grid */
+.button {
+  display: grid;
+  grid-gap: 10px; /* Espaçamento entre botões */
+  grid-template-columns: repeat(4, 1fr); /* 4 colunas iguais */
+}
+
+/* Estilo geral para os botões */
+.button button {
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #eee; /* Fundo padrão */
+  transition: 0.2s;
+}
+
+/* Efeito ao clicar */
+.button button:active {
+  transform: scale(0.98);
+  background-color: #ddd;
+}
+
+/* Estilo para operadores */
+.operator {
+  color: #001aff; /* Azul para operadores */
+}
+
+/* Botões de ações especiais */
+.ac,
+.del {
+  color: #ff0000; /* Vermelho para destaque */
+}
