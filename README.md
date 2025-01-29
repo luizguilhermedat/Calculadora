@@ -1,4 +1,4 @@
-# Calculadora 
+# Calculadora Simples
 
 Uma calculadora simples e funcional que realiza operações matemáticas básicas. O projeto foi desenvolvido com **HTML**, **CSS** e **JavaScript** para praticar e demonstrar conceitos básicos de desenvolvimento web.
 
@@ -39,13 +39,15 @@ Calculadora/
 │   └── style.css
 ├── js/
 │   └── script.js
+├── img/
+│   └── preview.png
 └── index.html
 ```
 
 ---
 
 ## Prévia Visual
-![Calculadora](https://via.placeholder.com/600x400?text=Preview+da+Calculadora)
+![Calculadora](img/preview.png)
 
 ---
 
@@ -65,3 +67,4 @@ Calculadora/
 
 ## Autor
 Desenvolvido por Luiz Guilherme, com o objetivo de praticar conceitos de desenvolvimento web. Se tiver dúvidas ou sugestões, sinta-se à vontade para contribuir!
+
