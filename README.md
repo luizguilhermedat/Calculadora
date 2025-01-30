@@ -1,4 +1,4 @@
-# Calculadora Simples
+# Calculadora 
 
 Uma calculadora simples e funcional que realiza operações matemáticas básicas. O projeto foi desenvolvido com **HTML**, **CSS** e **JavaScript** para praticar e demonstrar conceitos básicos de desenvolvimento web.
 
